@@ -129,8 +129,7 @@ class ContainerExecutionTests {
 			TestRunRecorder.NULL,
 			Collections.emptySet(),
 			true,
-			false,
-			true
+			false
 		).execute(engineDescriptor, eventRecorder);
 	}
 
