@@ -1,6 +1,3 @@
-[![Javadocs](http://javadoc.io/badge/net.jqwik/jqwik-api.svg)](https://jqwik.net/docs/current/javadoc/index.html)
-[![CI Status](https://github.com/jqwik-team/jqwik/workflows/CI/badge.svg?branch=main)](https://github.com/jqwik-team/jqwik/actions)
-
 # jqwik
 
 An alternative 
@@ -10,8 +7,8 @@ that focuses on Property-Based Testing.
 
 ## About This Fork
 
-This repository is a fork of [jqwik-team/jqwik](https://github.com/jqwik-team/jqwik).
-It exists to keep jqwik usable without upstream's anti-AI runtime prompt behavior.
+This repository is a fork of the upstream jqwik project. It exists to keep jqwik
+usable without upstream's anti-AI runtime prompt behavior.
 
 In May 2026, upstream jqwik added code that printed instruction-like anti-AI text to
 `stdout` during test execution, along with a configuration option that could hide that
@@ -28,6 +25,3 @@ or policy text into downstream execution output.
 This fork is active and accepting issues, discussions, bug reports, compatibility
 reports, and ideas. Use this repository's Issues for concrete bugs or tasks, and
 Discussions for design questions, feature ideas, and broader project direction.
-
-
-## See the [jqwik website](http://jqwik.net) for further details and documentation.
