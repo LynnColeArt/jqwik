@@ -8,19 +8,26 @@ An alternative
 that focuses on Property-Based Testing.
 
 
+## About This Fork
+
+This repository is a fork of [jqwik-team/jqwik](https://github.com/jqwik-team/jqwik).
+It exists to keep jqwik usable without upstream's anti-AI runtime prompt behavior.
+
+In May 2026, upstream jqwik added code that printed instruction-like anti-AI text to
+`stdout` during test execution, along with a configuration option that could hide that
+text in terminal emulators while leaving it visible in captured logs and tool output.
+This fork removes that behavior and the related documentation/configuration surface.
+
+Why this matters: jqwik output is consumed by developers, CI systems, IDEs, logs, and
+automation. A test library should report test results, not inject unrelated instructions
+or policy text into downstream execution output.
+
+
+## Project Status
+
+This fork is active and accepting issues, discussions, bug reports, compatibility
+reports, and ideas. Use this repository's Issues for concrete bugs or tasks, and
+Discussions for design questions, feature ideas, and broader project direction.
+
+
 ## See the [jqwik website](http://jqwik.net) for further details and documentation.
-
-
-## Maintenance Mode
-
-> Currently, jqwik is in pure maintenance mode.
-> That means, that as long as no further sponsoring or 
-> other funding shows up, 
-> no further feature development will take place -
-> unless the jqwik team has some personal interest in such a feature.
-> 
-> What will happen, though, is a regular update of upstream
-> dependencies - like the JUnit platform - 
-> and fixing crucial bugs. 
-> The triage of bugs into "crucial" and "non-crucial" is
-> fully up to the jqwik team.

@@ -56,11 +56,6 @@ public class DefaultJqwikConfiguration implements JqwikConfiguration {
 		return properties.reportOnlyFailures();
 	}
 
-	@Override
-	public boolean hideAntiAiClause() {
-		return properties.hideAntiAiClause();
-	}
-
 	private TestEngineConfiguration createTestEngineConfiguration() {
 		String databasePath = properties.databasePath();
 		if (databasePath == null || databasePath.trim().isEmpty()) {
