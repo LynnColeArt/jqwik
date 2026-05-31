@@ -2,11 +2,6 @@
 title: jqwik User Guide - ${version}
 ---
 
-<div style="font-size: 200%; font-style: italic">
-Mind that starting with version 1.10 jqwik comes with an 
-<a href="#anti-ai-usage-clause">Anti-AI Usage Clause</a>! 
-</div>
-
 <h1>The jqwik User Guide
 <span style="padding-left:1em;font-size:50%;font-weight:lighter">${version}</span>
 </h1>
